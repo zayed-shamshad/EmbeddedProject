@@ -6,7 +6,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:id="@+id/button"
@@ -17,7 +17,7 @@
         android:textStyle="bold"
         />
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:id="@+id/button2"
@@ -38,7 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="Classified as:"
+        android:text=""
         android:textStyle="bold"
         android:textSize="20sp"
         android:id="@+id/classified"
@@ -49,7 +49,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="Classified as:"
+        android:text=""
         android:textStyle="bold"
         android:textSize="20sp"
         android:id="@+id/memoryusage"
@@ -61,11 +61,33 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:text=""
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/processors"
+        android:layout_below="@+id/memoryusage"
+        android:layout_marginTop="10sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/processorusage"
+        android:layout_below="@+id/processors"
+        android:layout_marginTop="10sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text=""
         android:textColor="#C30000"
         android:textStyle="bold"
         android:textSize="27sp"
         android:id="@+id/result"
-        android:layout_below="@+id/classified"
+        android:layout_below="@+id/processorusage"
         />
 
 </RelativeLayout>

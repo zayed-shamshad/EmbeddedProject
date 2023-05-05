@@ -39,6 +39,9 @@ dependencies {
     implementation 'org.tensorflow:tensorflow-lite-support:0.1.0'
     implementation 'org.tensorflow:tensorflow-lite-metadata:0.1.0'
 
+    implementation 'org.tensorflow:tensorflow-lite:2.0.0'
+
+
     implementation 'com.google.mlkit:image-labeling:17.0.7'
     implementation 'com.google.mlkit:image-labeling-custom:17.0.1'
 
